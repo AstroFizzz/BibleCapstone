@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripture Study Directory</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e67e22;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: var(--primary-color);
+            color: white;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .category-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-left: 5px solid var(--accent-color);
+            transition: transform 0.2s;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.25rem;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .links-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .links-list li {
+            margin: 10px 0;
+        }
+
+        .links-list a {
+            text-decoration: none;
+            color: #34495e;
+            font-weight: 500;
+            display: block;
+            padding: 5px;
+            border-radius: 4px;
+        }
+
+        .links-list a:hover {
+            background-color: #fdf2e9;
+            color: var(--accent-color);
+        }
+
+        .note {
+            font-size: 0.85rem;
+            color: #7f8c8d;
+            font-style: italic;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Scripture Study Compendium</h1>
+    <p>A curated directory of biblical resources and subjects</p>
+</header>
+
+<div class="container">
+
+    <div class="category-card">
+        <h2>1. Introduction</h2>
+        <ul class="links-list">
+            <li><a href="#">What is the Bible?</a></li>
+            <li><a href="#">What is the Gospel?</a></li>
+            <li><a href="#">Biblical Hermeneutics 101</a></li>
+        </ul>
+    </div>
+
+    <div class="category-card">
+        <h2>2. Genesis</h2>
+        <ul class="links-list">
+            <li><a href="#">Creation & Fall</a></li>
+            <li><a href="#">The Patriarchs</a></li>
+        </ul>
+    </div>
+
+    <div class="category-card">
+        <h2>3. Exodus</h2>
+        <ul class="links-list">
+            <li><a href="#">The Deliverance</a></li>
+            <li><a href="#">The Ten Commandments</a></li>
+        </ul>
+    </div>
+
+    <div class="category-card">
+        <h2>4. Leviticus–Deuteronomy</h2>
+        <ul class="links-list">
+            <li><a href="#">The Law & Sacrifices</a></li>
+            <li><a href="#">Wilderness Wanderings</a></li>
+        </ul>
+    </div>
+
+    <div class="category-card">
+        <h2>5. History Pt. 1 (Joshua–David)</h2>
+        <ul class="links-list">
+            <li><a href="#">Conquest of Canaan</a></li>
+            <li><a href="#">The Period of Judges</a></li>
+            <li><a href="#">The Rise of David</a></li>
+        </ul>
+        <p class="note">*Poetic books integrated here</p>
+    </div>
+
+    <div class="category-card">
+        <h2>6. History Pt. 2 (Solomon–Esther)</h2>
+        <ul class="links-list">
+            <li><a href="#">The Divided Kingdom</a></li>
+            <li><a href="#">Exile & Return</a></li>
+        </ul>
+        <p class="note">*Poetic books integrated here</p>
+    </div>
+
+    <div class="category-card">
+        <h2>7. Major & Minor Prophets</h2>
+        <ul class="links-list">
+            <li><a href="#">The Major Prophets</a></li>
+            <li><a href="#">The Twelve (Minor)</a></li>
+        </ul>
+    </div>
+
+    <div class="category-card">
+        <h2>8. Gospels & Acts</h2>
+        <ul class="links-list">
+            <li><a href="#">The Synoptic Gospels</a></li>
+            <li><a href="#">The Gospel of John</a></li>
+            <li><a href="#">The Early Church (Acts)</a></li>
+        </ul>
+    </div>
+
+    <div class="category-card">
+        <h2>9. Paul’s Letters</h2>
+        <ul class="links-list">
+            <li><a href="#">Romans & Galatians</a></li>
+            <li><a href="#">Prison Epistles</a></li>
+            <li><a href="#">Pastoral Epistles</a></li>
+        </ul>
+    </div>
+
+    <div class="category-card">
+        <h2>10. General Letters & Revelation</h2>
+        <ul class="links-list">
+            <li><a href="#">Hebrews to Jude</a></li>
+            <li><a href="#">The Revelation of Jesus Christ</a></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
