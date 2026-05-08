@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exodus - Bible Capstone Project</title>
+    <style>
+        .footer-nav {
+            margin-top: 30px;
+            display: flex;
+            justify-content: flex-end; /* Aligns content to the right */
+            padding-bottom: 40px;
+        }
+
+        .forward-link {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            background: var(--primary-color);
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: 0.3s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .forward-link:hover {
+            background: var(--accent-color);
+            transform: translateY(-2px);
+        }
+
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e67e22;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: var(--primary-color);
+            color: white;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .back-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            background: rgba(255,255,255,0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .back-link:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .intro-section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        /* Essential for floating images: keeps the container from collapsing */
+        .intro-section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Indentation for paragraphs */
+        .intro-section p {
+            text-indent: 40px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Image Styling: 50% width, 475px height, with wrapping */
+        .featured-image {
+            width: 50%;
+            height: 475px;
+            object-fit: cover;
+            border-radius: 8px;
+            float: left;
+            margin-right: 25px;
+            margin-bottom: 10px;
+            display: inline;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .category-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-left: 5px solid var(--accent-color);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .links-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .links-list li {
+            margin-bottom: 10px;
+        }
+
+        .links-list a {
+            text-decoration: none;
+            color: #34495e;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .links-list a:hover {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="https://astrofizzz.github.io/BibleCapstone/" class="back-link">← Return to Homepage</a>
+    <h1>EXODUS</h1>
+    <p>Unit 3</p>
+</header>
+
+<div class="container">
+
+    <section class="intro-section">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp_P3rwdIsIXknfxNG6ySY4qEs-wwAyyZkTQ&s" 
+             alt="Moses splitting the Red Sea" 
+             class="featured-image">
+
+        <p>
+            Exodus is the second book of the Pentateuch, written by Moses to chronicle the mass departure of Israel from Egyptian slavery and their entry into a covenant relationship with God. The book establishes critical themes that define the nature of God, including His holiness and the necessity of sacrifice and atonement to reconcile the broken relationship between God and humanity caused by sin. The narrative begins with Israel's enslavement and Pharaoh's genocidal plans to limit their population. Moses is born during this time, adopted by Pharaoh’s daughter, and eventually called by God through a burning bush—an appearance of the Angel of the LORD often identified as the pre-incarnate Christ. Despite his excuses, Moses is sent to demand Israel's release. When Pharaoh refuses, God sends ten plagues to challenge Egypt's powerless gods and demonstrate His reality. The final plague, the death of the firstborn, leads to the institution of the Passover. By spreading the blood of a lamb on their doorframes, the Israelites were "passed over" by God’s judgment. This event is a direct foreshadowing of the Gospel, as Jesus Christ is the ultimate Passover Lamb whose sacrifice provides our final rescue from judgment. At Mount Sinai, God establishes a theocracy and gives the Ten Commandments. The Law was not intended to make people perfect, but rather to reveal their inability to be perfect and their desperate need for a Savior.
+        </p>
+
+        <p>
+            The document explains that modern Christians do not follow all 613 Old Testament laws because Jesus came to fulfill them. Through the work of salvation, Jesus serves as a lens that affects the Law in four ways:
+            •Maintains: Moral laws reflecting God's nature (like the prohibition of murder) remain unchanged.
+            •Modifies: Some laws, like the Sabbath, find a newer application in the rest found in Christ.
+            •Magnifies: Jesus deepens the understanding of laws, showing that murder and adultery are also heart issues of hate and lust.
+            •Removes: Ritual laws, specifically animal sacrifices and the need for human priests, are completely removed because Jesus’ death is the final, sufficient sacrifice for all sins. 
+        </p>
+
+        <p>
+            The Tabernacle served as a portable place of worship and a sign of God's continuous presence. From the Bronze Basin symbolizing purity to the Altar for Burnt Offerings, every element pointed to the people's need for forgiveness through death. The high priest’s entrance into the Holy of Holies was limited, but the veil separating man from God’s presence would eventually be torn through the death of Jesus, granting all believers access to God.
+        </p>
+    </section>
+
+    <div class="grid-container">
+        <div class="category-card">
+            <h2>Reason for 2-Page Text</h2>
+            <ul class="links-list">
+                <li>The Two Page summary was chosen because of the detailed history, which is very important for Exodus, and the the overview of the Gospel throughout it.</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer-nav">
+        <a href="https://astrofizzz.github.io/BibleCapstone/soon" class="forward-link">Unit 4: Leviticus-Deuteronomy →</a>
+    </footer>
+</body>
+</html>
