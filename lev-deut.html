@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leviticus-Deuteronomy - Bible Capstone Project</title>
+    <style>
+        .footer-nav {
+            margin-top: 30px;
+            display: flex;
+            justify-content: flex-end; /* Aligns content to the right */
+            padding-bottom: 40px;
+        }
+
+        .forward-link {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            background: var(--primary-color);
+            padding: 10px 20px;
+            border-radius: 20px;
+            transition: 0.3s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .forward-link:hover {
+            background: var(--accent-color);
+            transform: translateY(-2px);
+        }
+
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e67e22;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: var(--primary-color);
+            color: white;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .back-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            background: rgba(255,255,255,0.1);
+            padding: 8px 15px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .back-link:hover {
+            background: rgba(255,255,255,0.3);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .intro-section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            line-height: 1.8;
+        }
+
+        /* Essential for floating images: keeps the container from collapsing */
+        .intro-section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Indentation for paragraphs */
+        .intro-section p {
+            text-indent: 40px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Image Styling: 50% width, 475px height, with wrapping */
+        .featured-image {
+            width: 50%;
+            height: 700px;
+            object-fit: cover;
+            border-radius: 8px;
+            float: left;
+            margin-right: 25px;
+            margin-bottom: 10px;
+            display: inline;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .category-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-left: 5px solid var(--accent-color);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .links-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .links-list li {
+            margin-bottom: 10px;
+        }
+
+        .links-list a {
+            text-decoration: none;
+            color: #34495e;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .links-list a:hover {
+            color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="https://astrofizzz.github.io/BibleCapstone/" class="back-link">← Return to Homepage</a>
+    <h1>LEVITICUS-DEUTERONOMY</h1>
+    <p>Unit 4</p>
+</header>
+
+<div class="container">
+
+    <section class="intro-section">
+        <img src="https://www.traditionalcatechism.com/images/232.jpg" 
+             alt="Jewish Law" 
+             class="featured-image">
+
+        <p>
+            The notes on Leviticus highlight the necessity of sacrifice. Five specific types of offerings are detailed (Burnt, Grain, Peace, Sin, and Guilt), each representing a different aspect of worship and repentance. This system taught Israel that sin is a debt that must be paid. The notes emphasize that Jesus is the "Final Sacrifice" who fulfills all these categories, paying the debt of sin once and for all.
+        </p>
+
+        <p>
+            In Numbers, we see the recurring "Cycle of Sin": Israel rebels, God judges, the people repent, and God provides. Even when Israel was unfaithful, God provided Manna (bread from heaven) and water from a rock. Jesus identifies Himself as the "True Bread from Heaven" and the "Living Water," showing that He is the true source of life that the wilderness wanderings could only hint at.
+        </p>
+
+        <p>
+            Deuteronomy serves as a "Constitution" for Israel. It emphasizes that obedience leads to blessing and disobedience leads to curses. However, the book ends with a lingering question: How can peoples' hearts be transformed? The notes conclude that the Old Testament leaves us waiting for a Savior who can do what the Law could not—change a person from the inside out.
+        </p>
+    </section>
+
+    <div class="grid-container">
+        <div class="category-card">
+            <h2>Reason for 1-Page Text</h2>
+            <ul class="links-list">
+                <li>The One Page summary was chosen because it balances Gospel theology and the history of Leviticus-Dueteronomy well! It is easy to understand but doesn't leave out any <strong>massive</strong> details</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer-nav">
+        <a href="https://astrofizzz.github.io/BibleCapstone/soon" class="forward-link">Unit 5: History P1. 1 (Joshua-David) →</a>
+    </footer>
+</body>
+</html>
